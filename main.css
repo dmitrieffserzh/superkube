@@ -521,7 +521,7 @@ input[type="checkbox"] {
   --c-button-default-disabled-background: #ffffff;
   --c-button-default-disabled-border: #e5eaf1;
   --c-button-default-disabled-text: rgba(3, 25, 39, 0.85);
-  --c-button-primary-base-background: #ff0028;
+  --c-button-primary-base-background: #ff0017;
   --c-button-primary-base-border: transparent;
   --c-button-primary-base-text: #ffffff;
   --c-button-primary-hover-background: #f00028;
@@ -533,8 +533,8 @@ input[type="checkbox"] {
   --c-input-default-base-text: #7b88a0;
   --c-input-default-base-border: #e5eaf1;
   --c-input-default-base-background: #ffffff;
-  --c-input-default-focus-border: rgba(255, 0, 40, 0.5);
-  --c-input-default-focus-shadow: rgba(255, 0, 40, 0.3);
+  --c-input-default-focus-border: rgba(255, 0, 23, 0.5);
+  --c-input-default-focus-shadow: rgba(255, 0, 23, 0.3);
   --c-input-error-base-text: #D05869;
   --c-input-error-base-border: rgba(245, 100, 118, 0.5);
   --c-input-error-base-shadow: rgba(245, 100, 118, 0.3);
@@ -902,8 +902,33 @@ a.button,
   left: 0;
   right: 0;
   z-index: 100;
-  padding: 5rem 0;
-  background: #fff; }
+  padding: 4rem 0;
+  background: #fff;
+  line-height: 0; }
+
+.menu-button {
+  display: none;
+  float: right;
+  border: none;
+  padding: .5rem;
+  margin: 0 0 0 1rem;
+  background: transparent;
+  line-height: 0; }
+  .menu-button__line {
+    display: block;
+    position: relative;
+    margin: .25rem 0;
+    width: 1.5rem;
+    height: 2px;
+    background: #000;
+    transition: all .15s Linear; }
+    .menu-button__line:nth-child(2) {
+      width: .75rem;
+      left: 0;
+      background: #000; }
+  @media only screen and (max-width: 767px) {
+    .menu-button {
+      display: block; } }
 
 /*
   MAIN

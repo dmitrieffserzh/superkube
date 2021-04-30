@@ -50,9 +50,40 @@
   left: 0;
   right: 0;
   z-index: 100;
-  padding: 5rem 0;
+  padding: 4rem 0;
   background: #fff;
+  line-height: 0;
 }
+.menu-button {
+  display: none;
+  float: right;
+  border: none;
+  padding: .5rem;
+  margin: 0 0 0 1rem;
+  background: transparent;
+  line-height: 0;
+  &__line {
+    display: block;
+    position: relative;
+    margin: .25rem 0;
+    width: 1.5rem;
+    height: 2px;
+    background: #000;
+    transition: all .15s Linear;
+    &:nth-child(2) {
+      width: .75rem;
+      left: 0;
+      background: #000;
+    }
+  }
+  @include for-sm() {
+    display: block;
+  }
+}
+
+
+
+
 
 /*
   MAIN
