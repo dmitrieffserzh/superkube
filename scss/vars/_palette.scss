@@ -1,0 +1,33 @@
+// =Palette
+$palette: (
+    black: #031927,
+    white: #ffffff,
+    neutral: (
+        darker: #7b88a0,
+        dark: #42525D,
+        base: #818C93,
+        light: #e5eaf1,
+        lighter: #F5F6F7
+    ),
+    negative: (
+        darker: #A0495A,
+        dark: #D05869,
+        base: #F56476,
+        light: #FBC1C8,
+        lighter: #FEEFF1
+    ),
+    positive: (
+        darker: #2E735B,
+        dark: #47A97A,
+        base: #59CD90,
+        light: #BDEBD3,
+        lighter: #EEFAF3
+    ),
+    active: (
+        darker: #e10027,
+        dark: #f00028,
+        base: #ff0028,
+        light: #ff3d27,
+        lighter: #ffffff
+    )
+);

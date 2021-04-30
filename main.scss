@@ -1,0 +1,33 @@
+@import "./scss/funcs";
+
+// VARS
+@import "./scss/vars";
+
+// MIXINS AND BASE
+@import "./scss/mixins";
+@import "./scss/base";
+@import "./scss/color";
+
+// MODULES
+@import "./scss/modules/container";
+@import "./scss/modules/button";
+@import "./scss/modules/form";
+@import "./scss/modules/shadow";
+@import "./scss/modules/rounded";
+
+// FONT
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&amp;display=swap&amp;subset=cyrillic");
+
+/*
+  MAIN STYLES
+ -------------------------------------------------------------------------------------------------------------------- */
+* {
+  outline: none !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: geometricPrecision !important;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+}
