@@ -791,4 +791,16 @@ a.button,
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden; }
 
+/*
+  HEADER
+ -------------------------------------------------------------------------------------------------------------------- */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 5rem 0;
+  background: #fff; }
+
 /*# sourceMappingURL=main.css.map */

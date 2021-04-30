@@ -15,6 +15,8 @@
 @import "./scss/modules/container";
 @import "./scss/modules/button";
 @import "./scss/modules/form";
+
+// MODULES UTILS
 @import "./scss/modules/shadow";
 @import "./scss/modules/rounded";
 
@@ -33,4 +35,17 @@
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
+}
+
+/*
+  HEADER
+ -------------------------------------------------------------------------------------------------------------------- */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 5rem 0;
+  background: #fff;
 }
