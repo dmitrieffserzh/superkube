@@ -12,9 +12,13 @@
 @import "./scss/color";
 
 // MODULES
+@import "./scss/modules/edges";
 @import "./scss/modules/container";
+@import "./scss/modules/display";
+@import "./scss/modules/centered";
 @import "./scss/modules/button";
 @import "./scss/modules/form";
+@import "./scss/modules/heading";
 
 // MODULES UTILS
 @import "./scss/modules/shadow";
@@ -48,4 +52,20 @@
   z-index: 100;
   padding: 5rem 0;
   background: #fff;
+}
+
+/*
+  MAIN
+ -------------------------------------------------------------------------------------------------------------------- */
+// SECTIONS
+.section {
+  padding: 10rem 0;
+}
+
+/*
+  FOOTER
+ -------------------------------------------------------------------------------------------------------------------- */
+.footer {
+  height: 400px;
+  background: #f5f5f8;
 }

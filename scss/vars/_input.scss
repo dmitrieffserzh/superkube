@@ -21,7 +21,7 @@ $inputs: (
     default: (
         base: (
             color: color(input, default, base, text),
-            border: 1px solid color(input, default, base, border),
+            border: 2px solid color(input, default, base, border),
             background-color: color(input, default, base, background),
             box-shadow: none,
             transition: (border .3s Linear, box-shadow .3s Linear)
