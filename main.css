@@ -1,7 +1,7 @@
 /*
   FRAMEWORK STYLES
  -------------------------------------------------------------------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&amp;display=swap&amp;subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&amp;display=swap&amp;subset=cyrillic");
 html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
@@ -1056,17 +1056,19 @@ a.button,
 .section {
   padding: 10rem 0; }
   .section-header__title {
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 2em;
+    font-weight: 400;
     line-height: 1;
-    margin: 2rem 0 0;
+    margin: 2em 0 0;
     text-transform: uppercase;
-    color: #222325; }
+    color: #222325;
+    letter-spacing: .15em; }
   .section-header__subtitle {
-    font-size: .8rem;
+    font-size: .8em;
     font-weight: 500;
     text-transform: uppercase;
-    color: #7881a5; }
+    color: #7881a5;
+    letter-spacing: .15rem; }
 
 /*
   FOOTER
